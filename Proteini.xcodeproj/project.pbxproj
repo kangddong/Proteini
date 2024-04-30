@@ -11,6 +11,11 @@
 		B53ED3392BE10D4400EBA2D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED3382BE10D4400EBA2D0 /* ContentView.swift */; };
 		B53ED33B2BE10D4700EBA2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53ED33A2BE10D4700EBA2D0 /* Assets.xcassets */; };
 		B53ED33E2BE10D4700EBA2D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53ED33D2BE10D4700EBA2D0 /* Preview Assets.xcassets */; };
+		B53ED3452BE10E6000EBA2D0 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED3442BE10E6000EBA2D0 /* GoalView.swift */; };
+		B53ED3472BE1247100EBA2D0 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED3462BE1247100EBA2D0 /* CalendarView.swift */; };
+		B53ED3492BE125A400EBA2D0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED3482BE125A400EBA2D0 /* CustomTextField.swift */; };
+		B53ED34B2BE1271C00EBA2D0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53ED34A2BE1271C00EBA2D0 /* Colors.xcassets */; };
+		B53ED34D2BE12C8700EBA2D0 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED34C2BE12C8700EBA2D0 /* DesignSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B53ED3382BE10D4400EBA2D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B53ED33A2BE10D4700EBA2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53ED33D2BE10D4700EBA2D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B53ED3442BE10E6000EBA2D0 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		B53ED3462BE1247100EBA2D0 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		B53ED3482BE125A400EBA2D0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B53ED34A2BE1271C00EBA2D0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B53ED34C2BE12C8700EBA2D0 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				B53ED3362BE10D4400EBA2D0 /* ProteiniApp.swift */,
 				B53ED3382BE10D4400EBA2D0 /* ContentView.swift */,
+				B53ED3462BE1247100EBA2D0 /* CalendarView.swift */,
+				B53ED3442BE10E6000EBA2D0 /* GoalView.swift */,
 				B53ED33A2BE10D4700EBA2D0 /* Assets.xcassets */,
 				B53ED33C2BE10D4700EBA2D0 /* Preview Content */,
+				B53ED3482BE125A400EBA2D0 /* CustomTextField.swift */,
+				B53ED34A2BE1271C00EBA2D0 /* Colors.xcassets */,
+				B53ED34C2BE12C8700EBA2D0 /* DesignSystem.swift */,
 			);
 			path = Proteini;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53ED34B2BE1271C00EBA2D0 /* Colors.xcassets in Resources */,
 				B53ED33E2BE10D4700EBA2D0 /* Preview Assets.xcassets in Resources */,
 				B53ED33B2BE10D4700EBA2D0 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53ED34D2BE12C8700EBA2D0 /* DesignSystem.swift in Sources */,
 				B53ED3392BE10D4400EBA2D0 /* ContentView.swift in Sources */,
+				B53ED3452BE10E6000EBA2D0 /* GoalView.swift in Sources */,
+				B53ED3472BE1247100EBA2D0 /* CalendarView.swift in Sources */,
 				B53ED3372BE10D4400EBA2D0 /* ProteiniApp.swift in Sources */,
+				B53ED3492BE125A400EBA2D0 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
